@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Stride.PhysX/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "PhysX.Net-x64": "0.5.1"
+        },
+        "runtime": {
+          "Stride.PhysX.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PhysX.Net-x64/0.5.1": {
+        "dependencies": {
+          "System.Numerics.Vectors": "4.0.0"
+        },
+        "runtime": {
+          "lib/net45/PhysX.Net.dll": {
+            "assemblyVersion": "0.5.1.0",
+            "fileVersion": "0.5.1.0"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.0.0": {
+        "runtime": {
+          "lib/portable-net45+win8+wpa81/System.Numerics.Vectors.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Stride.PhysX/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "PhysX.Net-x64/0.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hdj43AFv+kfcMW1vaieoTk48OzIglji89VI5h4S0zTKHQvqvv39RgWv7dvXw+FzdYNWntEW+daPKAk0656owFQ==",
+      "path": "physx.net-x64/0.5.1",
+      "hashPath": "physx.net-x64.0.5.1.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-H/72pHnKZ5wZk8lMrZ2H10OsBgkRcbQ7sXuLzxAL9/evRB95yYf3j+iXdrRv2JHNGspdmC8oVo7B3RQrY5QBWw==",
+      "path": "system.numerics.vectors/4.0.0",
+      "hashPath": "system.numerics.vectors.4.0.0.nupkg.sha512"
+    }
+  }
+}

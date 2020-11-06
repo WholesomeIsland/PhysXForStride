@@ -1,0 +1,1741 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\Stride.PhysX.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\Stride.PhysX.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\Stride.PhysX.csproj",
+        "projectName": "Stride.PhysX",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\Stride.PhysX.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "PhysX.Net": {
+              "target": "Package",
+              "version": "[1.0.0-alpha, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.IO\\Stride.Core.IO.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.IO\\Stride.Core.IO.csproj",
+        "projectName": "Stride.Core.IO",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.IO\\Stride.Core.IO.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.IO\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj",
+                "privateAssets": "contentfiles, analyzers"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj",
+        "projectName": "Stride.Core.Mathematics",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.MicroThreading\\Stride.Core.MicroThreading.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.MicroThreading\\Stride.Core.MicroThreading.csproj",
+        "projectName": "Stride.Core.MicroThreading",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.MicroThreading\\Stride.Core.MicroThreading.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.MicroThreading\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Serialization\\Stride.Core.Serialization.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Serialization\\Stride.Core.Serialization.csproj",
+        "projectName": "Stride.Core.Serialization",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Serialization\\Stride.Core.Serialization.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Serialization\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.IO\\Stride.Core.IO.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.IO\\Stride.Core.IO.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.MicroThreading\\Stride.Core.MicroThreading.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.MicroThreading\\Stride.Core.MicroThreading.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj",
+        "projectName": "Stride.Core",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ServiceWire": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Audio\\Stride.Audio.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Audio\\Stride.Audio.csproj",
+        "projectName": "Stride.Audio",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Audio\\Stride.Audio.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Audio\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj",
+        "projectName": "Stride.Engine",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Audio\\Stride.Audio.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Audio\\Stride.Audio.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Rendering\\Stride.Rendering.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Rendering\\Stride.Rendering.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Compiler\\Stride.Shaders.Compiler.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Compiler\\Stride.Shaders.Compiler.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.VirtualReality\\Stride.VirtualReality.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.VirtualReality\\Stride.VirtualReality.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            },
+            "System.Threading.Tasks.Dataflow": {
+              "target": "Package",
+              "version": "[4.10.0, )"
+            },
+            "System.ValueTuple": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj",
+        "projectName": "Stride.Games",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461",
+          "netcoreapp3.0",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj"
+              }
+            }
+          },
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        },
+        "net461": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj",
+        "projectName": "Stride.Graphics",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SharpDX.D3DCompiler": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D12": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "Stride.OpenTK": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Stride.SharpFont": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Vortice.Vulkan": {
+              "target": "Package",
+              "version": "[1.2.141-alpha-001, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Input\\Stride.Input.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Input\\Stride.Input.csproj",
+        "projectName": "Stride.Input",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Input\\Stride.Input.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Input\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461",
+          "netcoreapp3.0",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj"
+              }
+            }
+          },
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.XInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        },
+        "net461": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.RawInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.XInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.XInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj",
+        "projectName": "Stride.Native",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Rendering\\Stride.Rendering.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Rendering\\Stride.Rendering.csproj",
+        "projectName": "Stride.Rendering",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Rendering\\Stride.Rendering.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Rendering\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Native\\Stride.Native.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Compiler\\Stride.Shaders.Compiler.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Compiler\\Stride.Shaders.Compiler.csproj",
+        "projectName": "Stride.Shaders.Compiler",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Compiler\\Stride.Shaders.Compiler.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Compiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Parser\\Stride.Shaders.Parser.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Parser\\Stride.Shaders.Parser.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SharpDX.D3DCompiler": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Parser\\Stride.Shaders.Parser.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Parser\\Stride.Shaders.Parser.csproj",
+        "projectName": "Stride.Shaders.Parser",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Parser\\Stride.Shaders.Parser.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders.Parser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Stride.Core.Shaders\\Stride.Core.Shaders.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Stride.Core.Shaders\\Stride.Core.Shaders.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj",
+        "projectName": "Stride.Shaders",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\Stride.Shaders.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Shaders\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.VirtualReality\\Stride.VirtualReality.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.VirtualReality\\Stride.VirtualReality.csproj",
+        "projectName": "Stride.VirtualReality",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.VirtualReality\\Stride.VirtualReality.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.VirtualReality\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Games\\Stride.Games.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Graphics\\Stride.Graphics.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Input\\Stride.Input.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Input\\Stride.Input.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj",
+        "projectName": "Stride",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\Stride.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Mathematics\\Stride.Core.Mathematics.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Serialization\\Stride.Core.Serialization.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core.Serialization\\Stride.Core.Serialization.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "StyleCop.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.0-beta008, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Irony\\Irony.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Irony\\Irony.csproj",
+        "projectName": "Stride.Irony",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Irony\\Irony.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Irony\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Stride.Core.Shaders\\Stride.Core.Shaders.csproj": {
+      "version": "4.0.0.1-beta04",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Stride.Core.Shaders\\Stride.Core.Shaders.csproj",
+        "projectName": "Stride.Core.Shaders",
+        "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Stride.Core.Shaders\\Stride.Core.Shaders.csproj",
+        "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Stride.Core.Shaders\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+          "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+          "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packages.stride3d.net/nuget": {},
+          "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\core\\Stride.Core\\Stride.Core.csproj"
+              },
+              "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Irony\\Irony.csproj": {
+                "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\shaders\\Irony\\Irony.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

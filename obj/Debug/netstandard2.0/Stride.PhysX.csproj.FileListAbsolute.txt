@@ -1,0 +1,5 @@
+C:\Users\spinn\OneDrive\Documents\GitHub\stride\build\Stride.PhysX\bin\Debug\netstandard2.0\Stride.PhysX.deps.json
+C:\Users\spinn\OneDrive\Documents\GitHub\stride\build\Stride.PhysX\bin\Debug\netstandard2.0\Stride.PhysX.dll
+C:\Users\spinn\OneDrive\Documents\GitHub\stride\build\Stride.PhysX\obj\Debug\netstandard2.0\Stride.PhysX.csprojAssemblyReference.cache
+C:\Users\spinn\OneDrive\Documents\GitHub\stride\build\Stride.PhysX\obj\Debug\netstandard2.0\Stride.PhysX.AssemblyInfoInputs.cache
+C:\Users\spinn\OneDrive\Documents\GitHub\stride\build\Stride.PhysX\obj\Debug\netstandard2.0\Stride.PhysX.AssemblyInfo.cs

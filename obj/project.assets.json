@@ -1,0 +1,1711 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Microsoft.Bcl.HashCode/1.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Bcl.HashCode.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Bcl.HashCode.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.Registry/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Win32.Registry.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtime": {
+          "lib/net461/Microsoft.Win32.SystemEvents.dll": {}
+        }
+      },
+      "PhysX.Net/1.0.0-alpha": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+        ],
+        "compile": {
+          "lib/net471/PhysX.Net.dll": {}
+        },
+        "runtime": {
+          "lib/net471/PhysX.Net.dll": {}
+        },
+        "build": {
+          "Build/PhysX.Net.targets": {}
+        }
+      },
+      "ServiceWire/5.3.4": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipes": "4.3.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Threading": "4.3.0"
+        },
+        "compile": {
+          "lib/net462/ServiceWire.dll": {}
+        },
+        "runtime": {
+          "lib/net462/ServiceWire.dll": {}
+        }
+      },
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.RawInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.RawInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.RawInput.dll": {}
+        }
+      },
+      "SharpDX.XInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XInput.dll": {}
+        }
+      },
+      "Stride.OpenTK/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTK.dll": {}
+        }
+      },
+      "Stride.SharpFont/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/SharpFont.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharpFont.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.IO.Pipes/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.IO.Pipes.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.IO.Pipes.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net46/System.IO.Pipes.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Security.AccessControl/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Principal.Windows": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.AccessControl.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.AccessControl.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Principal.Windows.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Threading/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Threading.Tasks.Dataflow/4.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net47/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net47/System.ValueTuple.dll": {}
+        }
+      },
+      "Vortice.Mathematics/1.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Bcl.HashCode": "1.1.0",
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "compile": {
+          "lib/net472/Vortice.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Vortice.Mathematics.dll": {}
+        }
+      },
+      "Vortice.Vulkan/1.2.141-alpha-001": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1",
+          "Vortice.Mathematics": "1.2.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Vortice.Vulkan.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Vortice.Vulkan.dll": {}
+        }
+      },
+      "Stride/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core.Mathematics": "4.0.0.1-beta04",
+          "Stride.Core.Serialization": "4.0.0.1-beta04",
+          "System.Drawing.Common": "4.6.0"
+        },
+        "compile": {
+          "bin/placeholder/Stride.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.dll": {}
+        }
+      },
+      "Stride.Audio/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride": "4.0.0.1-beta04",
+          "Stride.Native": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Audio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Audio.dll": {}
+        }
+      },
+      "Stride.Core/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.2.3",
+          "ServiceWire": "5.3.4",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Core.dll": {}
+        }
+      },
+      "Stride.Core.IO/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Core.IO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Core.IO.dll": {}
+        }
+      },
+      "Stride.Core.Mathematics/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Core.Mathematics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Core.Mathematics.dll": {}
+        }
+      },
+      "Stride.Core.MicroThreading/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Core.MicroThreading.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Core.MicroThreading.dll": {}
+        }
+      },
+      "Stride.Core.Serialization/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core.IO": "4.0.0.1-beta04",
+          "Stride.Core.MicroThreading": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Core.Serialization.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Core.Serialization.dll": {}
+        }
+      },
+      "Stride.Core.Shaders/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core": "4.0.0.1-beta04",
+          "Stride.Irony": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Core.Shaders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Core.Shaders.dll": {}
+        }
+      },
+      "Stride.Engine/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Audio": "4.0.0.1-beta04",
+          "Stride.Rendering": "4.0.0.1-beta04",
+          "Stride.Shaders.Compiler": "4.0.0.1-beta04",
+          "Stride.VirtualReality": "4.0.0.1-beta04",
+          "System.Threading.Tasks.Dataflow": "4.10.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Engine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Engine.dll": {}
+        }
+      },
+      "Stride.Games/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "Stride.Graphics": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Games.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Games.dll": {}
+        }
+      },
+      "Stride.Graphics/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "Stride": "4.0.0.1-beta04",
+          "Stride.Native": "4.0.0.1-beta04",
+          "Stride.OpenTK": "1.0.3",
+          "Stride.Shaders": "4.0.0.1-beta04",
+          "Stride.SharpFont": "1.0.0",
+          "Vortice.Vulkan": "1.2.141-alpha-001"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Graphics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Graphics.dll": {}
+        }
+      },
+      "Stride.Input/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "SharpDX.DirectInput": "4.2.0",
+          "SharpDX.RawInput": "4.2.0",
+          "SharpDX.XInput": "4.2.0",
+          "Stride.Games": "4.0.0.1-beta04",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Input.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Input.dll": {}
+        }
+      },
+      "Stride.Irony/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Stride.Irony.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Irony.dll": {}
+        }
+      },
+      "Stride.Native/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core.Mathematics": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Native.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Native.dll": {}
+        }
+      },
+      "Stride.Rendering/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Games": "4.0.0.1-beta04",
+          "Stride.Native": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Rendering.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Rendering.dll": {}
+        }
+      },
+      "Stride.Shaders/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Shaders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Shaders.dll": {}
+        }
+      },
+      "Stride.Shaders.Compiler/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "Stride.Shaders.Parser": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Shaders.Compiler.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Shaders.Compiler.dll": {}
+        }
+      },
+      "Stride.Shaders.Parser/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Core.Shaders": "4.0.0.1-beta04",
+          "Stride.Shaders": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.Shaders.Parser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.Shaders.Parser.dll": {}
+        }
+      },
+      "Stride.VirtualReality/4.0.0.1-beta04": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Stride.Games": "4.0.0.1-beta04",
+          "Stride.Graphics": "4.0.0.1-beta04",
+          "Stride.Input": "4.0.0.1-beta04"
+        },
+        "compile": {
+          "bin/placeholder/Stride.VirtualReality.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Stride.VirtualReality.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Bcl.HashCode/1.1.0": {
+      "sha512": "J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
+      "type": "package",
+      "path": "microsoft.bcl.hashcode/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Bcl.HashCode.dll",
+        "lib/net461/Microsoft.Bcl.HashCode.xml",
+        "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
+        "lib/netcoreapp2.1/Microsoft.Bcl.HashCode.xml",
+        "lib/netstandard2.0/Microsoft.Bcl.HashCode.dll",
+        "lib/netstandard2.0/Microsoft.Bcl.HashCode.xml",
+        "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll",
+        "lib/netstandard2.1/Microsoft.Bcl.HashCode.xml",
+        "microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+        "microsoft.bcl.hashcode.nuspec",
+        "ref/net461/Microsoft.Bcl.HashCode.dll",
+        "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
+        "ref/netstandard2.0/Microsoft.Bcl.HashCode.dll",
+        "ref/netstandard2.1/Microsoft.Bcl.HashCode.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/2.2.3": {
+      "sha512": "cdiDrA08CUT2gpupY2XDx+PzomJnKATPFSf/DeDhWEMhydlpSch1G0zbV7DE1U7YUrgmLoqNsCeCL0wI5bbbCA==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/2.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.2.2.3.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "sha512": "+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "type": "package",
+      "path": "microsoft.win32.registry/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/Microsoft.Win32.Registry.dll",
+        "lib/net461/Microsoft.Win32.Registry.dll",
+        "lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "microsoft.win32.registry.4.5.0.nupkg.sha512",
+        "microsoft.win32.registry.nuspec",
+        "ref/net46/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.dll",
+        "ref/net461/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "ref/netstandard1.3/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/de/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/es/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/fr/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/it/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ja/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ko/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/ru/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hans/Microsoft.Win32.Registry.xml",
+        "ref/netstandard1.3/zh-hant/Microsoft.Win32.Registry.xml",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "ref/netstandard2.0/Microsoft.Win32.Registry.xml",
+        "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net46/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/net461/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard1.3/Microsoft.Win32.Registry.dll",
+        "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "sha512": "LuI1oG+24TUj1ZRQQjM5Ew73BKnZE5NZ/7eAdh1o8ST5dPhUnJvIkiIn2re3MwnkRy6ELRnvEbBxHP8uALKhJw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "PhysX.Net/1.0.0-alpha": {
+      "sha512": "cWOmq4Byj2OZ7TkP81sYTMfhCZDB5uFo2h1+1q4AXm8WLURxe/6o3fyqIYrUr4DjntyXG2VTu49FsuE0o4V/QA==",
+      "type": "package",
+      "path": "physx.net/1.0.0-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Build/PhysX.Net.targets",
+        "lib/net471/PhysX.Net.dll",
+        "lib/net471/PhysX.Net.pdb",
+        "lib/x64/PhysXCommon_64.dll",
+        "lib/x64/PhysXCooking_64.dll",
+        "lib/x64/PhysXDevice64.dll",
+        "lib/x64/PhysXFoundation_64.dll",
+        "lib/x64/PhysXGpu_64.dll",
+        "lib/x64/PhysX_64.dll",
+        "physx.net.1.0.0-alpha.nupkg.sha512",
+        "physx.net.nuspec"
+      ]
+    },
+    "ServiceWire/5.3.4": {
+      "sha512": "CAKbOs5vOJisLkGmYzoeXeYhUks/1Wiej1SjYKZp6es5YmCIAPdcnZ/fD39gTLLfmi+Rbd+wi1cKWm+esDrzHg==",
+      "type": "package",
+      "path": "servicewire/5.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/ServiceWire.dll",
+        "lib/netstandard2.0/ServiceWire.dll",
+        "lib/netstandard2.1/ServiceWire.dll",
+        "servicewire.5.3.4.nupkg.sha512",
+        "servicewire.nuspec"
+      ]
+    },
+    "SharpDX/4.2.0": {
+      "sha512": "3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "type": "package",
+      "path": "sharpdx/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/.xml",
+        "lib/net40/SharpDX.dll",
+        "lib/net40/SharpDX.pdb",
+        "lib/net45/.xml",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.pdb",
+        "lib/netstandard1.1/.xml",
+        "lib/netstandard1.1/SharpDX.dll",
+        "lib/netstandard1.1/SharpDX.pdb",
+        "lib/uap10.0/.xml",
+        "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pdb",
+        "lib/uap10.0/SharpDX.pri",
+        "sharpdx.4.2.0.nupkg.sha512",
+        "sharpdx.nuspec"
+      ]
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "sha512": "Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "type": "package",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.D3DCompiler.dll",
+        "lib/net40/SharpDX.D3DCompiler.pdb",
+        "lib/net40/SharpDX.D3DCompiler.xml",
+        "lib/net45/SharpDX.D3DCompiler.dll",
+        "lib/net45/SharpDX.D3DCompiler.pdb",
+        "lib/net45/SharpDX.D3DCompiler.xml",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.dll",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.pdb",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.xml",
+        "lib/uap10.0/SharpDX.D3DCompiler.dll",
+        "lib/uap10.0/SharpDX.D3DCompiler.pdb",
+        "lib/uap10.0/SharpDX.D3DCompiler.pri",
+        "lib/uap10.0/SharpDX.D3DCompiler.xml",
+        "sharpdx.d3dcompiler.4.2.0.nupkg.sha512",
+        "sharpdx.d3dcompiler.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "sha512": "oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "type": "package",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D11.dll",
+        "lib/net40/SharpDX.Direct3D11.pdb",
+        "lib/net40/SharpDX.Direct3D11.xml",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.pdb",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D11.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D11.xml",
+        "lib/uap10.0/SharpDX.Direct3D11.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.pdb",
+        "lib/uap10.0/SharpDX.Direct3D11.pri",
+        "lib/uap10.0/SharpDX.Direct3D11.xml",
+        "sharpdx.direct3d11.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d11.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D12/4.2.0": {
+      "sha512": "OU4/cKRcAbGe8ZJ4oTUCDKsL5mCoy6aLJ2axYlwjyB8h/Z1OR38vSeGpbPB3ZKPumIuuYrANIBWnJ8xfUK7RQw==",
+      "type": "package",
+      "path": "sharpdx.direct3d12/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D12.dll",
+        "lib/net40/SharpDX.Direct3D12.pdb",
+        "lib/net40/SharpDX.Direct3D12.xml",
+        "lib/net45/SharpDX.Direct3D12.dll",
+        "lib/net45/SharpDX.Direct3D12.pdb",
+        "lib/net45/SharpDX.Direct3D12.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D12.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D12.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D12.xml",
+        "lib/uap10.0/SharpDX.Direct3D12.dll",
+        "lib/uap10.0/SharpDX.Direct3D12.pdb",
+        "lib/uap10.0/SharpDX.Direct3D12.pri",
+        "lib/uap10.0/SharpDX.Direct3D12.xml",
+        "sharpdx.direct3d12.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d12.nuspec"
+      ]
+    },
+    "SharpDX.DirectInput/4.2.0": {
+      "sha512": "is6Lm9zULyeTbUaLXktF+MwzmUYE8jofhA+6qgR1HBIyRJ/c2rZbeG1VvvGf4w6ktfq/q3AvUWTNzwgdU/+XOg==",
+      "type": "package",
+      "path": "sharpdx.directinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DirectInput.dll",
+        "lib/net40/SharpDX.DirectInput.pdb",
+        "lib/net40/SharpDX.DirectInput.xml",
+        "lib/net45/SharpDX.DirectInput.dll",
+        "lib/net45/SharpDX.DirectInput.pdb",
+        "lib/net45/SharpDX.DirectInput.xml",
+        "lib/netstandard1.3/SharpDX.DirectInput.dll",
+        "lib/netstandard1.3/SharpDX.DirectInput.pdb",
+        "lib/netstandard1.3/SharpDX.DirectInput.xml",
+        "sharpdx.directinput.4.2.0.nupkg.sha512",
+        "sharpdx.directinput.nuspec"
+      ]
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "sha512": "UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "type": "package",
+      "path": "sharpdx.dxgi/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DXGI.dll",
+        "lib/net40/SharpDX.DXGI.pdb",
+        "lib/net40/SharpDX.DXGI.xml",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.pdb",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/netstandard1.1/SharpDX.DXGI.dll",
+        "lib/netstandard1.1/SharpDX.DXGI.pdb",
+        "lib/netstandard1.1/SharpDX.DXGI.xml",
+        "lib/uap10.0/SharpDX.DXGI.dll",
+        "lib/uap10.0/SharpDX.DXGI.pdb",
+        "lib/uap10.0/SharpDX.DXGI.pri",
+        "lib/uap10.0/SharpDX.DXGI.xml",
+        "sharpdx.dxgi.4.2.0.nupkg.sha512",
+        "sharpdx.dxgi.nuspec"
+      ]
+    },
+    "SharpDX.RawInput/4.2.0": {
+      "sha512": "giUwSLrOaMiiFE2OobsXnwIq6P21KbNWo5YYJ4azGRX3qBCsiQ9HcuwqFA195Xe3RNEqYUwzx3eTvxbHrCodyg==",
+      "type": "package",
+      "path": "sharpdx.rawinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.RawInput.dll",
+        "lib/net40/SharpDX.RawInput.pdb",
+        "lib/net40/SharpDX.RawInput.xml",
+        "lib/net45/SharpDX.RawInput.dll",
+        "lib/net45/SharpDX.RawInput.pdb",
+        "lib/net45/SharpDX.RawInput.xml",
+        "sharpdx.rawinput.4.2.0.nupkg.sha512",
+        "sharpdx.rawinput.nuspec"
+      ]
+    },
+    "SharpDX.XInput/4.2.0": {
+      "sha512": "mH3soea+aVUaTuFrkwx+zohklDvCczcgtuTiZJbOCyS5GZ/F9se4BsRJ86xTA9baf0drXYbZQj152PN7lnjiwg==",
+      "type": "package",
+      "path": "sharpdx.xinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.XInput.dll",
+        "lib/net40/SharpDX.XInput.pdb",
+        "lib/net40/SharpDX.XInput.xml",
+        "lib/net45/SharpDX.XInput.dll",
+        "lib/net45/SharpDX.XInput.pdb",
+        "lib/net45/SharpDX.XInput.xml",
+        "lib/netstandard1.1/SharpDX.XInput.dll",
+        "lib/netstandard1.1/SharpDX.XInput.pdb",
+        "lib/netstandard1.1/SharpDX.XInput.xml",
+        "lib/uap10.0/SharpDX.XInput.dll",
+        "lib/uap10.0/SharpDX.XInput.pdb",
+        "lib/uap10.0/SharpDX.XInput.pri",
+        "lib/uap10.0/SharpDX.XInput.xml",
+        "sharpdx.xinput.4.2.0.nupkg.sha512",
+        "sharpdx.xinput.nuspec"
+      ]
+    },
+    "Stride.OpenTK/1.0.3": {
+      "sha512": "LC5BFYoQCgINHcKCZ1Lood6m/fsO5Q+M3G23/uLOXXxe7pPaj3y2//a24qvnbM2ONg//vw9Jbw7MVtIiZKZWoA==",
+      "type": "package",
+      "path": "stride.opentk/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid50/OpenTK-1.1.dll",
+        "lib/netstandard2.0/OpenTK.dll",
+        "lib/xamarinios10/OpenTK-1.1.dll",
+        "stride.opentk.1.0.3.nupkg.sha512",
+        "stride.opentk.nuspec"
+      ]
+    },
+    "Stride.SharpFont/1.0.0": {
+      "sha512": "k0TwI8OlRYhSTma2WW2oJ1vcSzVFB4UqZBHkuxLGh1nFFrRCmT3KFc+eNnRlGDNn4eDAk0w2hvzBnzGGn4WD9A==",
+      "type": "package",
+      "path": "stride.sharpfont/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SharpFont.dll",
+        "lib/netstandard2.0/SharpFont.dll.config",
+        "lib/xamarinios10/SharpFont.dll",
+        "stride.sharpfont.1.0.0.nupkg.sha512",
+        "stride.sharpfont.nuspec"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/4.7.0": {
+      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "type": "package",
+      "path": "system.drawing.common/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.IO.Pipes/4.3.0": {
+      "sha512": "wpGJuACA6r8+KRckXoI6ghGTwgPRiICI6T7kgHI/m7S5eMqV/8jH37fzAUhTwIe9RwlH/j1sWwm2Q2zyXwZGHw==",
+      "type": "package",
+      "path": "system.io.pipes/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/net46/System.IO.Pipes.dll",
+        "ref/net46/System.IO.Pipes.dll",
+        "ref/netstandard1.3/System.IO.Pipes.dll",
+        "ref/netstandard1.3/System.IO.Pipes.xml",
+        "ref/netstandard1.3/de/System.IO.Pipes.xml",
+        "ref/netstandard1.3/es/System.IO.Pipes.xml",
+        "ref/netstandard1.3/fr/System.IO.Pipes.xml",
+        "ref/netstandard1.3/it/System.IO.Pipes.xml",
+        "ref/netstandard1.3/ja/System.IO.Pipes.xml",
+        "ref/netstandard1.3/ko/System.IO.Pipes.xml",
+        "ref/netstandard1.3/ru/System.IO.Pipes.xml",
+        "ref/netstandard1.3/zh-hans/System.IO.Pipes.xml",
+        "ref/netstandard1.3/zh-hant/System.IO.Pipes.xml",
+        "runtimes/unix/lib/netstandard1.3/System.IO.Pipes.dll",
+        "runtimes/win/lib/net46/System.IO.Pipes.dll",
+        "runtimes/win/lib/netstandard1.3/System.IO.Pipes.dll",
+        "runtimes/win7/lib/netcore50/_._",
+        "system.io.pipes.4.3.0.nupkg.sha512",
+        "system.io.pipes.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "type": "package",
+      "path": "system.reflection.emit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "sha512": "zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "sha512": "vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "type": "package",
+      "path": "system.security.accesscontrol/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.AccessControl.dll",
+        "lib/net461/System.Security.AccessControl.dll",
+        "lib/netstandard1.3/System.Security.AccessControl.dll",
+        "lib/netstandard2.0/System.Security.AccessControl.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.dll",
+        "ref/net461/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/System.Security.AccessControl.dll",
+        "ref/netstandard1.3/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/de/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/es/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/fr/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/it/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ja/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ko/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/ru/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml",
+        "ref/netstandard2.0/System.Security.AccessControl.dll",
+        "ref/netstandard2.0/System.Security.AccessControl.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/net46/System.Security.AccessControl.dll",
+        "runtimes/win/lib/net461/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.accesscontrol.4.5.0.nupkg.sha512",
+        "system.security.accesscontrol.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "sha512": "U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "type": "package",
+      "path": "system.security.principal.windows/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net46/System.Security.Principal.Windows.dll",
+        "lib/net461/System.Security.Principal.Windows.dll",
+        "lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net46/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.dll",
+        "ref/net461/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/System.Security.Principal.Windows.dll",
+        "ref/netstandard1.3/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/de/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/es/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/fr/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/it/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ja/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ko/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/ru/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml",
+        "ref/netstandard2.0/System.Security.Principal.Windows.dll",
+        "ref/netstandard2.0/System.Security.Principal.Windows.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net46/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/net461/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.security.principal.windows.4.5.0.nupkg.sha512",
+        "system.security.principal.windows.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading/4.3.0": {
+      "sha512": "VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "type": "package",
+      "path": "system.threading/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Threading.dll",
+        "lib/netstandard1.3/System.Threading.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Threading.dll",
+        "ref/netcore50/System.Threading.xml",
+        "ref/netcore50/de/System.Threading.xml",
+        "ref/netcore50/es/System.Threading.xml",
+        "ref/netcore50/fr/System.Threading.xml",
+        "ref/netcore50/it/System.Threading.xml",
+        "ref/netcore50/ja/System.Threading.xml",
+        "ref/netcore50/ko/System.Threading.xml",
+        "ref/netcore50/ru/System.Threading.xml",
+        "ref/netcore50/zh-hans/System.Threading.xml",
+        "ref/netcore50/zh-hant/System.Threading.xml",
+        "ref/netstandard1.0/System.Threading.dll",
+        "ref/netstandard1.0/System.Threading.xml",
+        "ref/netstandard1.0/de/System.Threading.xml",
+        "ref/netstandard1.0/es/System.Threading.xml",
+        "ref/netstandard1.0/fr/System.Threading.xml",
+        "ref/netstandard1.0/it/System.Threading.xml",
+        "ref/netstandard1.0/ja/System.Threading.xml",
+        "ref/netstandard1.0/ko/System.Threading.xml",
+        "ref/netstandard1.0/ru/System.Threading.xml",
+        "ref/netstandard1.0/zh-hans/System.Threading.xml",
+        "ref/netstandard1.0/zh-hant/System.Threading.xml",
+        "ref/netstandard1.3/System.Threading.dll",
+        "ref/netstandard1.3/System.Threading.xml",
+        "ref/netstandard1.3/de/System.Threading.xml",
+        "ref/netstandard1.3/es/System.Threading.xml",
+        "ref/netstandard1.3/fr/System.Threading.xml",
+        "ref/netstandard1.3/it/System.Threading.xml",
+        "ref/netstandard1.3/ja/System.Threading.xml",
+        "ref/netstandard1.3/ko/System.Threading.xml",
+        "ref/netstandard1.3/ru/System.Threading.xml",
+        "ref/netstandard1.3/zh-hans/System.Threading.xml",
+        "ref/netstandard1.3/zh-hant/System.Threading.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Threading.dll",
+        "system.threading.4.3.0.nupkg.sha512",
+        "system.threading.nuspec"
+      ]
+    },
+    "System.Threading.Tasks.Dataflow/4.10.0": {
+      "sha512": "WPI32A1Tf838Yal/XHWdfKrtY/gQxi3MZG2ERC5ljI6RI1YV7Ype1nxc043pv8A8rDLeXmzs4LxxWfEguJ2Dug==",
+      "type": "package",
+      "path": "system.threading.tasks.dataflow/4.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard1.1/System.Threading.Tasks.Dataflow.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Dataflow.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Dataflow.xml",
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.dll",
+        "lib/portable-net45+win8+wpa81/System.Threading.Tasks.Dataflow.xml",
+        "system.threading.tasks.dataflow.4.10.0.nupkg.sha512",
+        "system.threading.tasks.dataflow.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Vortice.Mathematics/1.2.3": {
+      "sha512": "+X57PjpUvDUUP4aIZvFW/n5kfzRlzFf5+jF3eA3+gAmSyh/vST+KtNUt0RUWIBiUrtihNPNN1QUlz8/wO5QVdA==",
+      "type": "package",
+      "path": "vortice.mathematics/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/Vortice.Mathematics.dll",
+        "lib/net472/Vortice.Mathematics.xml",
+        "lib/netcoreapp2.1/Vortice.Mathematics.dll",
+        "lib/netcoreapp2.1/Vortice.Mathematics.xml",
+        "lib/netcoreapp3.1/Vortice.Mathematics.dll",
+        "lib/netcoreapp3.1/Vortice.Mathematics.xml",
+        "lib/netstandard2.0/Vortice.Mathematics.dll",
+        "lib/netstandard2.0/Vortice.Mathematics.xml",
+        "lib/netstandard2.1/Vortice.Mathematics.dll",
+        "lib/netstandard2.1/Vortice.Mathematics.xml",
+        "vortice.mathematics.1.2.3.nupkg.sha512",
+        "vortice.mathematics.nuspec"
+      ]
+    },
+    "Vortice.Vulkan/1.2.141-alpha-001": {
+      "sha512": "p3bHue7pt9KY2c87bnb0vMv4vXuOGnDhGGypEU9E1ulsXbCypuLPd58OGo3ZL6ukdzGIJOzCZMQ8wjcRyC+ORA==",
+      "type": "package",
+      "path": "vortice.vulkan/1.2.141-alpha-001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Vortice.Vulkan.dll",
+        "lib/netstandard2.0/Vortice.Vulkan.xml",
+        "vortice.vulkan.1.2.141-alpha-001.nupkg.sha512",
+        "vortice.vulkan.nuspec"
+      ]
+    },
+    "Stride/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride/Stride.csproj",
+      "msbuildProject": "../../sources/engine/Stride/Stride.csproj"
+    },
+    "Stride.Audio/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Audio/Stride.Audio.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Audio/Stride.Audio.csproj"
+    },
+    "Stride.Core/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/core/Stride.Core/Stride.Core.csproj",
+      "msbuildProject": "../../sources/core/Stride.Core/Stride.Core.csproj"
+    },
+    "Stride.Core.IO/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/core/Stride.Core.IO/Stride.Core.IO.csproj",
+      "msbuildProject": "../../sources/core/Stride.Core.IO/Stride.Core.IO.csproj"
+    },
+    "Stride.Core.Mathematics/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/core/Stride.Core.Mathematics/Stride.Core.Mathematics.csproj",
+      "msbuildProject": "../../sources/core/Stride.Core.Mathematics/Stride.Core.Mathematics.csproj"
+    },
+    "Stride.Core.MicroThreading/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/core/Stride.Core.MicroThreading/Stride.Core.MicroThreading.csproj",
+      "msbuildProject": "../../sources/core/Stride.Core.MicroThreading/Stride.Core.MicroThreading.csproj"
+    },
+    "Stride.Core.Serialization/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/core/Stride.Core.Serialization/Stride.Core.Serialization.csproj",
+      "msbuildProject": "../../sources/core/Stride.Core.Serialization/Stride.Core.Serialization.csproj"
+    },
+    "Stride.Core.Shaders/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/shaders/Stride.Core.Shaders/Stride.Core.Shaders.csproj",
+      "msbuildProject": "../../sources/shaders/Stride.Core.Shaders/Stride.Core.Shaders.csproj"
+    },
+    "Stride.Engine/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Engine/Stride.Engine.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Engine/Stride.Engine.csproj"
+    },
+    "Stride.Games/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Games/Stride.Games.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Games/Stride.Games.csproj"
+    },
+    "Stride.Graphics/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Graphics/Stride.Graphics.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Graphics/Stride.Graphics.csproj"
+    },
+    "Stride.Input/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Input/Stride.Input.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Input/Stride.Input.csproj"
+    },
+    "Stride.Irony/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/shaders/Irony/Irony.csproj",
+      "msbuildProject": "../../sources/shaders/Irony/Irony.csproj"
+    },
+    "Stride.Native/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Native/Stride.Native.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Native/Stride.Native.csproj"
+    },
+    "Stride.Rendering/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Rendering/Stride.Rendering.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Rendering/Stride.Rendering.csproj"
+    },
+    "Stride.Shaders/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Shaders/Stride.Shaders.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Shaders/Stride.Shaders.csproj"
+    },
+    "Stride.Shaders.Compiler/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Shaders.Compiler/Stride.Shaders.Compiler.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Shaders.Compiler/Stride.Shaders.Compiler.csproj"
+    },
+    "Stride.Shaders.Parser/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.Shaders.Parser/Stride.Shaders.Parser.csproj",
+      "msbuildProject": "../../sources/engine/Stride.Shaders.Parser/Stride.Shaders.Parser.csproj"
+    },
+    "Stride.VirtualReality/4.0.0.1-beta04": {
+      "type": "project",
+      "path": "../../sources/engine/Stride.VirtualReality/Stride.VirtualReality.csproj",
+      "msbuildProject": "../../sources/engine/Stride.VirtualReality/Stride.VirtualReality.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "PhysX.Net >= 1.0.0-alpha",
+      "Stride.Engine >= 4.0.0.1-beta04"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\spinn\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\Stride.PhysX.csproj",
+      "projectName": "Stride.PhysX",
+      "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\Stride.PhysX.csproj",
+      "packagesPath": "C:\\Users\\spinn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\Stride.PhysX\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\build\\.nuget\\NuGet.Config",
+        "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\NuGet.Config",
+        "C:\\Users\\spinn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.stride3d.net/nuget": {},
+        "https://pkgs.dev.azure.com/clairernovotny/GitBuilds/_packaging/MSBuildSdkExtras@Local/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {
+            "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj": {
+              "projectPath": "C:\\Users\\spinn\\OneDrive\\Documents\\GitHub\\stride\\sources\\engine\\Stride.Engine\\Stride.Engine.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "PhysX.Net": {
+            "target": "Package",
+            "version": "[1.0.0-alpha, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
