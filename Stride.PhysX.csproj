@@ -12,4 +12,10 @@
     <ProjectReference Include="..\..\sources\engine\Stride.Engine\Stride.Engine.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="NVIDIA.PhysX">
+      <HintPath>PhysXPInvoke\NVIDIA.PhysX.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
