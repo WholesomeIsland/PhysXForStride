@@ -1,7 +1,7 @@
 # PhysXForStride
 PhysX for Stride/3030Engine Game Engine
 
-** PhysX License **
+**PhysX License**
 Copyright (c) 2019 NVIDIA Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
